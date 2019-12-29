@@ -7,10 +7,10 @@ Pod::Spec.new do |spec|
                    DESC
   spec.homepage     = "https://appcoda.com"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "YOUR_NAME" => "YOUR_EMAIL" }
+  spec.author       = { "Ayu" => "something@somethin.com" }
   spec.platform     = :ios, "12.0"
   # spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source       = { :git => "https://github.com/ayenew/NetStatus.git", :tag => "#{spec.version}" }
-  spec.source_files = "NetStatus/Source/*.{swift}"
+  spec.source_files = "NetStatus/NetStatus/Source/*.{swift}"
   spec.swift_version = "5.0"
 end
